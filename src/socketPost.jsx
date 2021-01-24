@@ -37,7 +37,7 @@ function PostRestData() {
         </div>
 
         <button class="btn btn-warning m-5" onClick={socketSend}>
-          Chat Websocket
+          Send
         </button>
       </form>
     </div>

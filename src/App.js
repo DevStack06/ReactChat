@@ -8,8 +8,8 @@ function App() {
     <React.Fragment>
       <Switch>
         <Route path="/" exact component={SocketPost} />
-        <Route path="/socketPost" component={SocketPost} />
-        <Route path="/socket" exact component={SocketMsg} />
+        <Route path="/sendmsg" component={SocketPost} />
+        <Route path="/getmsg" exact component={SocketMsg} />
       </Switch>
     </React.Fragment>
   );

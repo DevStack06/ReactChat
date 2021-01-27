@@ -13,12 +13,16 @@
   margin-bottom: 10px;
 }
 .main {
-  margin-left: 25%;
-  margin-top: 8%;
-  width: 60%;
+  /* margin-left: 25%; */
+  margin-top: 3%;
+  /* width: 60%; */
   align-items: center;
   align-content: center;
+  /* position: absolute; */
 }
 .data {
   margin-left: 90px;
+}
+p {
+  text-align: center;
 }

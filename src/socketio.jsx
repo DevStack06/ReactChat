@@ -27,7 +27,7 @@ const RecieveData = () => {
     <div class="main">
       <div>
         {" "}
-        <p class="h1 ">Example of Web Socket</p>
+        <p class="h1 text-primary">Messages Will come here</p>
       </div>
       <div class="p-5 data">{data}</div>
     </div>

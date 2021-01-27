@@ -21,7 +21,7 @@
   /* position: absolute; */
 }
 .data {
-  margin-left: 90px;
+  margin-left: calc(100% / 2.3);
 }
 p {
   text-align: center;

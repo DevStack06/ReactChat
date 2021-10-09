@@ -22,13 +22,13 @@ function PostRestData() {
     setMsg("");
   };
   return (
-    <div class="container p-4">
-      <p class="h3 pb-5 text-primary"> Message Page</p>
+    <div className="container p-4">
+      <p className="h3 pb-5 text-primary"> Message Page</p>
       <form onSubmit={submitHandler}>
-        <div class="form-group">
-          <label for="mesage">Message</label>
+        <div className="form-group">
+          <label htmlFor="mesage">Message</label>
           <textarea
-            class="form-control"
+            className="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
             onChange={onChange}
@@ -36,7 +36,7 @@ function PostRestData() {
           ></textarea>
         </div>
 
-        <button class="btn btn-warning m-5" onClick={socketSend}>
+        <button className="btn btn-warning m-5" onClick={socketSend}>
           Send
         </button>
       </form>

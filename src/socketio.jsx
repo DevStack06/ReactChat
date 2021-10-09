@@ -24,12 +24,12 @@ const RecieveData = () => {
   });
   console.log(chats);
   return (
-    <div class="main">
+    <div className="main">
       <div>
         {" "}
-        <p class="h1 text-primary">Messages Will come here</p>
+        <p className="h1 text-primary">Messages Will come here</p>
       </div>
-      <div class="p-5 data">{data}</div>
+      <div className="p-5 data">{data}</div>
     </div>
   );
 };
